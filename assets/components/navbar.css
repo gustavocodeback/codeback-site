@@ -1,0 +1,87 @@
+#navbar {
+    width: 100vw;
+    height: 50px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background: #1A1A1A;
+    z-index: 99;
+}
+
+/* botao do menu */
+#navbar .menu-button {
+    width: 30px;
+    height: 20px;
+    margin-top: 15px;
+    display: block;
+    position: relative;
+}
+#navbar .menu-button span {
+    height: 1px;
+    width: 100%;
+    display: block;
+    transition: .25s;
+    position: absolute;
+    background: #fff;
+}
+#navbar .menu-button span:first-child {
+    top: 0px;
+}
+#navbar .menu-button span:nth-child(2) {
+    top: 9px;
+}
+#navbar .menu-button span:last-child {
+    bottom: 0px;
+}
+#navbar .menu-button:hover {
+    cursor: pointer;
+}
+#navbar .menu-button:hover span:first-child {
+    top: 2px;
+}
+#navbar .menu-button:hover span:last-child {
+    bottom: 3px;
+}
+#navbar .menu-button.active span:nth-child(2) {
+    display: none;
+}
+#navbar .menu-button.active span:first-child {
+    top: 9px;
+    transform: rotate( 45deg );
+}
+#navbar .menu-button.active span:last-child {
+    bottom: 9px;
+    transform: rotate( 135deg );
+} 
+
+/* links do menu */
+#menu-wrapper {
+    position: fixed;
+    top: -100vh;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+    background: #1A1A1A;
+    transition: .5s;
+    padding-top: 70px;
+    z-index: 88;
+}
+#menu-wrapper.active {
+    top: 0px;
+}
+#menu-wrapper ul {
+    list-style: none;
+}
+#menu-wrapper ul li {
+    color: #ccc;
+    font-size: 18px;
+    display: block;
+    border-bottom: 1px solid #444;
+    padding: 10px 0px;
+    transition: .5s;
+}
+#menu-wrapper ul li:hover {
+    cursor: pointer;
+    color: #fff;
+    border-color: #fff;
+}
