@@ -19,6 +19,29 @@
     height: 100px;
 }
 
+.menu {
+    width: 25px;
+    height: 16px;
+    padding: 0px;
+    position: relative;
+}
+
+.menu span {
+    width: 100%;
+    height: 2px;
+    background: black;
+    display: inline-block;
+    position: absolute;
+}
+
+.menu .middle {
+    top: 7px;
+}
+
+.menu span:last-child {
+    bottom: 0px
+}
+
 /* -------------------
  * PRIMEIRO SERVICOS
  *
@@ -107,6 +130,8 @@
 #equipe {
     padding-top: 100px;
     padding-bottom: 100px;
+    background: url( https://lh3.googleusercontent.com/-SNbMYxJx8xI/WcqcVOKYtOI/AAAAAAAABIo/1KuQikd1ShMxhhyqxSSYolLPRb5BQz1YQCK8BGAs/s512/2017-09-26.png );
+    background-size: cover;
 }
 #equipe .team-profile {
     width: 100px;

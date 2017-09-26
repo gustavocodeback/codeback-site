@@ -19,10 +19,14 @@
         <div class="navbar">
             <div class="container">
                 <div class="col-xs-4">
-                    Menu hamburguer
+                    <div class="menu">
+                        <span></span>
+                        <span class="middle"></span>
+                        <span></span>
+                    </div> 
                 </div>
                 <div class="col-xs-4 text-center">
-                    Logo central
+                    <img width="40px" src="images/logo.png" alt="">
                 </div>
                 <div class="col-xs-4 text-right">
                     Contato
@@ -31,7 +35,7 @@
         </div><!-- navbar principal -->
         <div class="row">
             <div class="col-xs-12 text-center">
-                <h1>Codeback</h1>
+                <h1><img width="800px" src="images/logo-1.png" alt=""></h1>
             </div>
         </div><!-- nome -->
         <div id="slogan" class="row">
