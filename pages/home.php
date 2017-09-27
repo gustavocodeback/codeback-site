@@ -48,7 +48,7 @@
     <div id="services-panel" class="container-fluid">
         <div class="row">
             <div class="col-xs-12 text-center">
-                <h2>A Codeback</h2>
+                <h2><img width="700px" src="images/a_codeback.png" alt=""></h2>
             </div>
         </div><!-- a codeback -->
         <div class="row">
@@ -63,7 +63,9 @@
                 </div>
             </div><!-- tipos de servico esquerda -->
             <div class="col-xs-4 mobile-screen-wrapper text-center">
-                <div class="mobile-screen"></div>
+                <div class="mobile-screen">
+                    <img src="images/celular_1.png" alt="">
+                </div>
             </div>
             <div class="col-xs-4"><!-- celular logo codeback -->
                 <div class="service text-right">
@@ -86,10 +88,9 @@
             </div>
         </div><!-- titulo -->
 
-        <?php for( $i = 0; $i < 4; $i++ ):?>
-        <div class="row" style="z-index: 9999;">
-            <div class="description col-xs-6 <?= $i % 2 != 0 ? 'pull-right' : ''; ?>">
-                <h2>Titulo do case</h2>
+        <div class="row backgroung-image-1" style="z-index: 9999;">
+            <div class="description col-xs-6">
+                <h2>Checkme</h2>
                 <p><?= lorem(); ?></p>
             </div><!-- descritivo -->
             <div class="mobile col-xs-6 text-center">
@@ -97,8 +98,28 @@
             </div><!-- celular -->
             <div class="clearfix"></div>
         </div>
-        <?php endfor; ?>
 
+        <div class="row backgroung-image-2" style="z-index: 9999;">
+            <div class="description col-xs-6 pull-right">
+                <h2>#PartiuVender</h2>
+                <p><?= lorem(); ?></p>
+            </div><!-- descritivo -->
+            <div class="mobile col-xs-6 text-center">
+                <div class="mobile-wrapper"></div>
+            </div><!-- celular -->
+            <div class="clearfix"></div>
+        </div>
+
+        <div class="row backgroung-image-3" style="z-index: 9999;">
+            <div class="description col-xs-6">
+                <h2>Passapport</h2>
+                <p><?= lorem(); ?></p>
+            </div><!-- descritivo -->
+            <div class="mobile col-xs-6 text-center">
+                <div class="mobile-wrapper"></div>
+            </div><!-- celular -->
+            <div class="clearfix"></div>
+        </div>
     </div><!-- cases -->
     
     <div id="clientes" class="container-fluid">
@@ -125,27 +146,27 @@
         <div class="row">
             <div class="col-md-4">
                 <p>
-                    <img class="contact-profile img-circle" src="https://organicthemes.com/demo/profile/files/2012/12/profile_img.png">
+                    <img class="contact-profile img-circle" src="images/gustavo.jpg">
                 </p>
                 <p>(15) 7070-7070</p>
                 <p>(15) 7070-7070</p>
-                <p>contato@email.com</p>
+                <p>gustavo.villasboas@codeback.com.br</p>
             </div>
             <div class="col-md-4 text-center">
                 <p>
-                    <img class="contact-profile img-circle" src="https://organicthemes.com/demo/profile/files/2012/12/profile_img.png">
+                    <img class="contact-profile img-circle" src="images/agatha.jpg">
                 </p>
                 <p>(15) 7070-7070</p>
                 <p>(15) 7070-7070</p>
-                <p>contato@email.com</p>
+                <p>agatha.magalhaes@codeback.com.br</p>
             </div>
             <div class="col-md-4 text-right">
                 <p>
-                    <img class="contact-profile img-circle" src="https://organicthemes.com/demo/profile/files/2012/12/profile_img.png">
+                    <img class="contact-profile img-circle" src="images/anao.jpg">
                 </p>
                 <p>(15) 7070-7070</p>
                 <p>(15) 7070-7070</p>
-                <p>contato@email.com</p>
+                <p>vinicius.fernando@codeback.com.br</p>
             </div>
         </div><!-- dados de contato -->
         <div class="row">
@@ -157,15 +178,14 @@
 
     <div id="equipe" class="container-fluid">
         <div class="row">
-            <?php for( $i = 0; $i < 3; $i++ ): ?>
             <div class="col-xs-4 text-center">
                 <div class="col-xs-12">
                     <p>
-                        <img class="team-profile img-circle" src="https://organicthemes.com/demo/profile/files/2012/12/profile_img.png">
+                        <img class="team-profile img-circle" src="images/gustavo.jpg">
                     </p>
                 </div>
                 <div class="col-xs-12">
-                    Nome do integrante
+                    Gustavo Villas Boas
                 </div>
                 <div class="col-xs-12">
                     Papel na equipe
@@ -174,24 +194,56 @@
                     <?= lorem(); ?>
                 </div>
             </div>
-            <?php endfor; ?>
+            <div class="col-xs-4 text-center">
+                <div class="col-xs-12">
+                    <p>
+                        <img class="team-profile img-circle" src="images/agatha.jpg">
+                    </p>
+                </div>
+                <div class="col-xs-12">
+                    Agatha Magalhães
+                </div>
+                <div class="col-xs-12">
+                    Papel na equipe
+                </div>
+                <div class="col-xs-12">
+                    <?= lorem(); ?>
+                </div>
+            </div>
+            <div class="col-xs-4 text-center">
+                <div class="col-xs-12">
+                    <p>
+                        <img class="team-profile img-circle" src="images/anao.jpg">
+                    </p>
+                </div>
+                <div class="col-xs-12">
+                    Vinícius Fernando Sampaio
+                </div>
+                <div class="col-xs-12">
+                    Papel na equipe
+                </div>
+                <div class="col-xs-12">
+                    <?= lorem(); ?>
+                </div>
+            </div>
         </div>
     </div><!-- equipe -->
 
     <div id="footer" class="container-fluid">
         <div class="row">
-            <?php for( $i = 0; $i < 4; $i++ ): ?>
-            <div class="col-md-3">
-                <h4>Titulo da secao</h4>
-                <ul>
-                    <li>Item secao 1</li>
-                    <li>Item secao 2</li>
-                    <li>Item secao 3</li>
-                    <li>Item secao 4</li>
-                    <li>Item secao 5</li>
-                </ul>
+            <div class="col-md-4 text-center">
+                <h4>Logo codeback</h4>
             </div>
-            <?php endfor; ?>
+            <div class="col-md-4">
+                <h4>Quem somos</h4>
+                <h4>Contato</h4>
+                <h4>Mapa</h4>
+            </div>
+            <div class="col-xs-4">
+                <h4>A Codeback</h4>
+                <h4>Cases</h4>
+                <h4>Clientes</h4>
+            </div>         
         </div>
     </div><!-- rodape -->
 

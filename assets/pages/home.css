@@ -52,6 +52,7 @@
 #services-panel h2 {
      font-size: 80px;
      margin-top: 50px;
+     margin-bottom: 60px;
 }
 #services-panel .mobile-screen-wrapper {
     padding: 10px;
@@ -59,8 +60,12 @@
 #services-panel .mobile-screen-wrapper .mobile-screen {
      width: 320px;
      height: 550px;
-     background: #333;
+     background: transparent;
      display: inline-block;
+}
+#services-panel .mobile-screen-wrapper .mobile-screen img {
+    width: 320px;
+    height: 550px;
 }
 #services-panel .mission {
     background: #202020;
@@ -77,6 +82,19 @@
  --------------------*/
 #cases {
     z-index: 8888;
+}
+#cases .backgroung-image-1 {
+    background-image: url( ../../images/copos.png );
+}
+#cases .backgroung-image-2 {
+    background-image: url( //res.cloudinary.com/hjqklbxsu/image/upload/f_auto,fl_lossy,q_auto/v1469204806/side/t/process_taste_tablet_opt.jpg );
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#cases .backgroung-image-3 {
+    background-image: url( ../../images/image2.jpg );
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 #cases .title-wrapper {
     background: url( https://lh3.googleusercontent.com/-SNbMYxJx8xI/WcqcVOKYtOI/AAAAAAAABIo/1KuQikd1ShMxhhyqxSSYolLPRb5BQz1YQCK8BGAs/s512/2017-09-26.png );
@@ -101,6 +119,7 @@
 }
 #cases .description {
     padding: 150px;
+    color: #fff;
 }
 
 /* -------------------
@@ -118,6 +137,9 @@
 #contact .contact-profile {
     width: 100px;
 }
+#contact h1 {
+    margin-bottom: 50px;
+}
 #contact .maps-wrapper {
     height: 400px;
     overflow: hidden;
@@ -132,6 +154,7 @@
     padding-bottom: 100px;
     background: url( https://lh3.googleusercontent.com/-SNbMYxJx8xI/WcqcVOKYtOI/AAAAAAAABIo/1KuQikd1ShMxhhyqxSSYolLPRb5BQz1YQCK8BGAs/s512/2017-09-26.png );
     background-size: cover;
+    color: #fff;
 }
 #equipe .team-profile {
     width: 100px;
@@ -143,6 +166,13 @@
  *
  --------------------*/
 #footer {
-    background: #777;
-    padding-top: 50px;
+    background: #202020;
+    color: #fff;
+    padding: 20px;
 }
+#footer .col-md-4:first-child {
+    height: 100%;
+}
+
+
+/*background-image: url(//res.cloudinary.com/hjqklbxsu/image/upload/f_auto,fl_lossy,q_auto/v1501259328/side/t/HoneyVidTablet.jpg);*/
