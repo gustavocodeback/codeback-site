@@ -29,7 +29,7 @@
                     <img width="40px" src="images/logo.png" alt="">
                 </div>
                 <div class="col-xs-4 text-right">
-                    Contato
+                    <a href="#contact"><img src="images/old-typical-phone.png" alt=""></a>
                 </div>
             </div>
         </div><!-- navbar principal -->
@@ -169,7 +169,7 @@
                 <p>vinicius.fernando@codeback.com.br</p>
             </div>
         </div><!-- dados de contato -->
-        <div class="row">
+        <div id="map" class="row">
             <div class="col-xs-12 maps-wrapper">
                 <img width="100%" src="http://cdn.newsapi.com.au/image/v1/0a0ceda4bda18e664ffac1a8fa86a7d1" alt="">
             </div>
@@ -231,19 +231,19 @@
 
     <div id="footer" class="container-fluid">
         <div class="row">
-            <div class="col-md-4 text-center">
-                <h4>Logo codeback</h4>
+            <div class="col-md-4 text-center col-image">
+                <h4><img src="images/logo.png" alt=""></h4>
             </div>
-            <div class="col-md-4">
-                <h4>Quem somos</h4>
-                <h4>Contato</h4>
-                <h4>Mapa</h4>
-            </div>
-            <div class="col-xs-4">
-                <h4>A Codeback</h4>
-                <h4>Cases</h4>
-                <h4>Clientes</h4>
-            </div>         
+            <div class="col-xs-4 links">
+                <a href="#services-panel"><h4>A Codeback</h4></a>
+                <a href="#cases"><h4>Cases</h4></a>
+                <a href="#clientes"><h4>Clientes</h4></a>
+            </div>  
+            <div class="col-md-4 links">
+                <a href="#contact"><h4>Contato</h4></a>
+                <a href="#map"><h4>Mapa</h4></a>
+                <a href="#equipe"><h4>Equipe</h4></a>
+            </div>       
         </div>
     </div><!-- rodape -->
 

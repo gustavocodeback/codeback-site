@@ -24,6 +24,7 @@
     height: 16px;
     padding: 0px;
     position: relative;
+    margin-top: 7px;
 }
 
 .menu span {
@@ -40,6 +41,9 @@
 
 .menu span:last-child {
     bottom: 0px
+}
+#first-panel .col-xs-4:last-child {
+    padding-top: 5px;
 }
 
 /* -------------------
@@ -134,6 +138,9 @@
  * CONTACT
  *
  --------------------*/
+#contact {
+    padding-top: 100px;
+}
 #contact .contact-profile {
     width: 100px;
 }
@@ -167,11 +174,21 @@
  --------------------*/
 #footer {
     background: #202020;
-    color: #fff;
     padding: 20px;
 }
-#footer .col-md-4:first-child {
-    height: 100%;
+#footer .links {
+    padding-left: 152px;
+}
+#footer .col-image {
+    border-right: solid 1px orange;
+}
+#footer img {
+    height: 90px;
+    width: 90px;
+    background-color: #fff;
+}
+#footer a {
+    color: #fff;
 }
 
 
