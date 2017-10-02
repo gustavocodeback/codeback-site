@@ -19,7 +19,7 @@
         <div class="navbar">
             <div class="container">
                 <div class="col-xs-4">
-                    <div class="menu">
+                    <div class="menu" onclick="toggleMenu()">
                         <span></span>
                         <span class="middle"></span>
                         <span></span>
@@ -43,6 +43,7 @@
                 <h4>Yes, we code!</h4>
             </div>
         </div><!-- slogan -->
+
     </div><!-- painel numero 1 -->
 
     <div id="services-panel" class="container-fluid">
@@ -94,7 +95,9 @@
                 <p><?= lorem(); ?></p>
             </div><!-- descritivo -->
             <div class="mobile col-xs-6 text-center">
-                <div class="mobile-wrapper"></div>
+                <div class="mobile-wrapper">
+                <img src="images/celular_3.png" alt="">
+                </div>
             </div><!-- celular -->
             <div class="clearfix"></div>
         </div>
@@ -105,7 +108,9 @@
                 <p><?= lorem(); ?></p>
             </div><!-- descritivo -->
             <div class="mobile col-xs-6 text-center">
-                <div class="mobile-wrapper"></div>
+                <div class="mobile-wrapper">
+                    <img src="images/celular_4.png" alt="">
+                </div>
             </div><!-- celular -->
             <div class="clearfix"></div>
         </div>
@@ -116,7 +121,9 @@
                 <p><?= lorem(); ?></p>
             </div><!-- descritivo -->
             <div class="mobile col-xs-6 text-center">
-                <div class="mobile-wrapper"></div>
+                <div class="mobile-wrapper">
+                    <img src="images/celular_2.png" alt="">
+                </div>
             </div><!-- celular -->
             <div class="clearfix"></div>
         </div>
@@ -246,6 +253,21 @@
             </div>       
         </div>
     </div><!-- rodape -->
+
+    <div id="menu-lateral" class="">
+        <div id="title-menu">
+            <h1>Menu</h1>
+            <i class="fa fa-times" aria-hidden="true" onclick="toggleMenu()"></i>
+        </div>         
+        <ul class="lista">
+            <li><a href="#services-panel">A Codeback</a></li>
+            <li><a href="#cases">Cases</a></li>
+            <li><a href="#clientes">Clientes</a></li>
+            <li><a href="#contact">Contato</a></li>
+            <li><a href="#map">Mapa</a></li>
+            <li><a href="#equipe">Equipe</a></li>
+        </ul>
+    </div><!-- menu lateral -->
 
     <?php bootstrap(); ?>
     <script src="<?php echo asset( 'assets/build/global.js' ); ?>"></script>

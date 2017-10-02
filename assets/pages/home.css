@@ -1,4 +1,51 @@
 /* -------------------
+ * MENU LATERAL
+ *
+ --------------------*/
+#menu-lateral {
+    height: 100%;
+    width: 230px;
+    background: #333;
+    position: fixed;
+    top: 0;
+    left: -230px;
+    color: #fff;
+    z-index: 9999;
+    transition: .25s;
+}
+#menu-lateral #title-menu {
+    margin: 5px;
+}
+#menu-lateral #title-menu h1 {
+    font-size: 30px;
+    display: inline-block;
+    margin-left: 5px;
+    margin-top: 12px;
+}
+#menu-lateral #title-menu i {
+    font-size: 30px;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    margin-right: 5px;
+    top: 20px;
+}
+#menu-lateral .lista {
+    list-style: none;
+    padding-left: 13px;
+}
+#menu-lateral .lista li {
+    margin: 24px;
+}
+#menu-lateral .lista a {
+    color: #fff;
+    font-size: 20px;
+}
+#menu-lateral.active {
+    left: 0px;
+}
+
+/* -------------------
  * PRIMEIRO PAINEL
  *
  --------------------*/
@@ -115,11 +162,15 @@
     margin-top: -50px;
 }
 #cases .mobile .mobile-wrapper {
-    width: 320px;
-    height: 500px;
-    background: #333;
+    width: 279px;
+    height: 551px;
+    background: transparent;
     z-index: 9999;    
     display: inline-block;
+}
+#cases .mobile .mobile-wrapper img {
+    width: 279px;
+    height: 551px;
 }
 #cases .description {
     padding: 150px;
