@@ -1,3 +1,8 @@
+* {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Crete Round', serif;
+}
+
 /* -------------------
  * MENU LATERAL
  *
@@ -59,13 +64,15 @@
     font-size: 100px;
     margin-top: 100px;
 }
+#first-panel h1 img {
+    display: inline-block;
+}
 #first-panel #slogan {
     position: absolute;
     bottom: 0px;
     width: 100%;
     height: 100px;
 }
-
 .menu {
     width: 25px;
     height: 16px;
@@ -73,7 +80,6 @@
     position: relative;
     margin-top: 7px;
 }
-
 .menu span {
     width: 100%;
     height: 2px;
@@ -81,11 +87,9 @@
     display: inline-block;
     position: absolute;
 }
-
 .menu .middle {
     top: 7px;
 }
-
 .menu span:last-child {
     bottom: 0px
 }
@@ -105,17 +109,19 @@
      margin-top: 50px;
      margin-bottom: 60px;
 }
+#first-panel h2 .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+    display: inline-block;
+}
 #services-panel .mobile-screen-wrapper {
     padding: 10px;
 }
 #services-panel .mobile-screen-wrapper .mobile-screen {
-     width: 320px;
      height: 550px;
      background: transparent;
      display: inline-block;
 }
 #services-panel .mobile-screen-wrapper .mobile-screen img {
-    width: 320px;
+    width: 300px;
     height: 550px;
 }
 #services-panel .mission {
@@ -125,6 +131,29 @@
     padding-bottom: 50px;
     color: #f1f1f1;
     font-size: 20px;
+}
+@media screen and (min-width: 641px) {
+    #services-panel .service:first-child {
+        margin-bottom: 100px;
+    }
+}
+@media screen and (max-width: 640px) {
+    #services-panel .service {
+        margin: 0px;
+        padding: 20px 10px;
+    }
+    #services-panel .service h4 {
+        font-size: 45px !important;
+    }
+    #services-panel .col-sm-4.text-left, #services-panel .col-sm-4.text-right {
+        text-align: center !important;
+    }
+}
+#services-panel .service h4 {
+    color: #CCAE85;
+    margin-bottom: 20px;
+    font-size: 50px;
+    font-weight: bold;
 }
 
 /* -------------------
@@ -156,6 +185,7 @@
     padding: 40px;
     padding-top: 70px;
     color: #f1f1f1;
+    text-shadow: 0px 0px 30px rgba(0, 0, 0, 1);
 }
 #cases .mobile {
     z-index: 9999;
@@ -172,9 +202,22 @@
     width: 279px;
     height: 551px;
 }
-#cases .description {
-    padding: 150px;
-    color: #fff;
+@media screen and (max-width: 640px) {
+    #cases .description {
+        padding: 40px;
+        padding-bottom: 87px;
+        color: #fff;
+    }
+}
+@media screen and (min-width: 641px) {
+    #cases .description {
+        padding: 150px;
+        color: #fff;
+    }
+}
+
+#cases .description p {
+    text-shadow: 0px 0px 30px rgba(0, 0, 0, 1);
 }
 
 /* -------------------
@@ -184,23 +227,58 @@
 #clientes {
     padding-top: 100px;
 }
+#clientes h1 {
+    margin-top: 10px;
+    margin-bottom: 40px;
+    font-weight: bold;
+    font-size: 80px;
+    color: #666;
+}
+#clientes .itau {
+    padding: 40px 108px;
+    filter: opacity(82%);
+}
+#clientes .sansung {
+    padding: 53px;
+    filter: grayscale(100%);
+}
+#clientes .contaagil {
+    padding: 40px;
+    filter: grayscale(100%);
+}
 
 /* -------------------
  * CONTACT
  *
  --------------------*/
 #contact {
-    padding-top: 100px;
+    margin-top: 90px;
+    padding-top: 80px;
+    background-color: #FEF6DC;
+    color: #CCAE85;
 }
 #contact .contact-profile {
     width: 100px;
 }
 #contact h1 {
     margin-bottom: 50px;
+    font-weight: bold;
+    font-size: 80px;
+}
+#contact p {
+    margin: 0 0 1px;
 }
 #contact .maps-wrapper {
-    height: 400px;
+    margin-top: 40px;
+    height: 450px;
     overflow: hidden;
+    padding: 0px;
+}
+@media screen and (max-width: 640px) {
+    #contact .col-md-4.text-left, #contact .col-md-4.text-right {
+        text-align: center !important;
+        margin: 40px;
+    }
 }
 
 /* -------------------
@@ -218,6 +296,11 @@
     width: 100px;
     margin-bottom: 20px;
 }
+@media screen and (max-width: 640px) {
+    #equipe .margin-top-col {
+        margin-top: 100px;
+    }
+}
 
 /* -------------------
  * FOOTER
@@ -227,16 +310,12 @@
     background: #202020;
     padding: 20px;
 }
-#footer .links {
-    padding-left: 152px;
-}
 #footer .col-image {
-    border-right: solid 1px orange;
+    border-right: solid 1px #fff;
 }
 #footer img {
     height: 90px;
     width: 90px;
-    background-color: #fff;
 }
 #footer a {
     color: #fff;
