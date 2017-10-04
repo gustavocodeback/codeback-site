@@ -236,28 +236,48 @@
     </div><!-- equipe -->
 
     <div id="footer" class="container-fluid">
-        <div class="row">
-            <div class="col-md-4 text-center col-image">
-                <h4><img src="images/logo_branco.png" alt=""></h4>
+        <div class="footer-content">
+            <div class="row">
+                <div class="col-md-12 text-center title">
+                    <img width="70px;" src="images/logo-preto.png" alt="">
+                    <h3>CODEBACK</h3>
+                </div>       
             </div>
-            <div class="col-md-4 links text-center">
-                <a href="#services-panel"><h4>A Codeback</h4></a>
-                <a href="#cases"><h4>Cases</h4></a>
-                <a href="#clientes"><h4>Clientes</h4></a>
-            </div>  
-            <div class="col-md-4 links text-center">
-                <a href="#contact"><h4>Contato</h4></a>
-                <a href="#map"><h4>Mapa</h4></a>
-                <a href="#equipe"><h4>Equipe</h4></a>
-            </div>       
+            <div class="row">
+                <div class="col-md-12 text-center col-list">
+                    <ul class="footer-list">
+                        <li><a href="">A Codeback</a></li>
+                        <li><a href="">Cases</a></li>
+                        <li><a href="">Clientes</a></li>
+                        <li><a href="">Contato</a></li>
+                        <li><a href="">Mapa</a></li>
+                        <li><a href="">Equipe</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 text-center col-redes-sociais">
+                    <ul class="redes-sociais">
+                        <li><a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                        <li><a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                        <li><a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                        <li><a href=""><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <p>CODEBACK <i class="fa fa-registered" aria-hidden="true"></i> 2017. All rights reserved</p>
+            </div>
         </div>
     </div><!-- rodape -->
 
     <div id="menu-lateral" class="">
         <div id="title-menu">
-            <h1>Menu</h1>
             <i class="fa fa-times" aria-hidden="true" onclick="toggleMenu()"></i>
-        </div>         
+        </div>      
         <ul class="lista">
             <li><a href="#services-panel">A Codeback</a></li>
             <li><a href="#cases">Cases</a></li>
@@ -265,6 +285,13 @@
             <li><a href="#contact">Contato</a></li>
             <li><a href="#map">Mapa</a></li>
             <li><a href="#equipe">Equipe</a></li>
+            <li><a href="#equipe"><span></span></a></li>
+            <div class="redes-sociais">
+                <li><i class="fa fa-facebook" aria-hidden="true"></i></li>
+                <li><i class="fa fa-instagram" aria-hidden="true"></i></li>
+                <li><i class="fa fa-twitter" aria-hidden="true"></i></li>
+                <li><i class="fa fa-youtube-play" aria-hidden="true"></i></li>
+            </div>
         </ul>
     </div><!-- menu lateral -->
 
