@@ -138,16 +138,16 @@
         </div><!-- titulo -->
         <div class="row">
             <div class="col-md-3 text-center">
-                <img class="contaagil img-responsive" width="100%" src="images/contaagil.png" alt="">
+                <img class="contaagil img-responsive" width="230px" src="images/contaagil.png" alt="">
+            </div>
+            <div class="col-md-3 text-center aux">
+                <img class="sansung img-responsive" width="185px" src="images/sansung.png" alt="">
             </div>
             <div class="col-md-3 text-center">
-                <img class="sansung img-responsive" width="100%" src="images/sansung.png" alt="">
+                <img class="itau img-responsive" width="80px" src="images/logo-itau.png" alt="">
             </div>
             <div class="col-md-3 text-center">
-                <img class="itau img-responsive" src="images/logo-itau.png" alt="">
-            </div>
-            <div class="col-md-3 text-center">
-                <img width="100%" src="http://contaagil.com/wp-content/uploads/2017/09/logo_starta_ideia.png" alt="">
+                <img width="289px" src="http://contaagil.com/wp-content/uploads/2017/09/logo_starta_ideia.png" alt="">
             </div>
         </div><!-- corpo -->
     </div><!-- clientes -->
