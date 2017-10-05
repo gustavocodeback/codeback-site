@@ -144,7 +144,7 @@
                 <img class="sansung img-responsive" width="100%" src="images/sansung.png" alt="">
             </div>
             <div class="col-md-3 text-center">
-                <img class="itau img-responsive" width="100%" src="images/itau.png" alt="">
+                <img class="itau img-responsive" src="images/logo-itau.png" alt="">
             </div>
             <div class="col-md-3 text-center">
                 <img width="100%" src="http://contaagil.com/wp-content/uploads/2017/09/logo_starta_ideia.png" alt="">
