@@ -48,6 +48,9 @@
     display: inline-block;
     font-size: 22px;
 }
+#menu-lateral .redes-sociais li a {
+    font-size: 22px;
+}
 #menu-lateral.active {
     left: 0px;
 }
@@ -259,16 +262,6 @@
     background: #5C5C5C;
     border-radius: 15px;
 }
-/*
-#clientes .sansung {
-    padding: 53px;
-    filter: grayscale(100%);
-}
-#clientes .contaagil {
-    padding: 40px;
-    filter: grayscale(100%);
-}
-*/
 
 /* -------------------
  * CONTACT

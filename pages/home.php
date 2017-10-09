@@ -65,17 +65,17 @@
             <div class="col-sm-4 text-left">
                 <div class="service animated" data-animate="fadeInLeft">
                     <h4>APLICATIVOS</h4>
-                    <p><?= lorem( 100 ); ?></p>
+                    <p>Você no bolso do seu cliente</p>
                 </div>
                 <div class="service animated" data-animate="fadeInLeft">
                     <h4>SITES</h4>
-                    <p><?= lorem( 100 ); ?></p>
+                    <p>Seu site acessivel a qualquer hora e em qualquer lugar</p>
                 </div>
             </div><!-- tipos de servico esquerda -->
             <div class=" col-sm-4 col-sm-push-4 text-right">
                 <div class="service animated" data-animate="fadeInRight">
                     <h4>SISTEMAS</h4>
-                    <p><?= lorem( 100 ); ?></p>
+                    <p>Controle sua empresa através de sistemas cloud</p>
                 </div>
             </div><!-- tipos de servico direita -->
             <div class="col-sm-4 col-sm-pull-4 mobile-screen-wrapper text-center">
@@ -87,7 +87,7 @@
         </div><!-- servicos -->
         <div class="mission row">
             <div class="col-md-6 col-md-offset-3 text-center">
-                <p class="animated" data-animate="fadeIn"><?= lorem(); ?></p>
+                <p class="animated" data-animate="fadeIn">Somos apaixonados pelo que fazemos. Cada linha de código, cada aplicativo entregue e cada cliente atendido pela CODEBACK tem a garantia de qualidade e eficiência.</p>
             </div>
         </div><!-- missao -->
     </div><!-- painel de apresentacao -->
@@ -102,7 +102,7 @@
         <div class="row backgroung-image-1" style="z-index: 9999;">
             <div class="description col-md-6 animated" data-animate="fadeIn">
                 <h2>Checkme</h2>
-                <p><?= lorem(); ?></p>
+                <p>Aplicativo disponível para Android e IOS, o CHECKME teve como objetivo ser o guia comercial para turistas e visitantes dentro de uma cidade.</p>
             </div><!-- descritivo -->
             <div class="mobile col-md-6 text-center">
                 <div class="mobile-wrapper">
@@ -115,7 +115,8 @@
         <div class="row backgroung-image-2" style="z-index: 9999;">
             <div class="description col-md-6 pull-right animated" data-animate="fadeIn">
                 <h2>#PartiuVender</h2>
-                <p><?= lorem(); ?></p>
+                <p>A CODEBACK foi a escolhida para desenvolver o app da campanha #PartiuVender para a SAMSUNG.</p>
+                <p>Voltada em aumentar as vendas e premiar os vendedores melhores qualificados, este foi um case de sucesso para ambas as empresas.</p>
             </div><!-- descritivo -->
             <div class="mobile col-md-6 text-center">
                 <div class="mobile-wrapper">
@@ -128,7 +129,7 @@
         <div class="row backgroung-image-3" style="z-index: 9999;">
             <div class="description col-md-6 animated" data-animate="fadeIn">
                 <h2>Passapport</h2>
-                <p><?= lorem(); ?></p>
+                <p>Um aplicativo de fidelidade. O principal objetivo desse case é fornecer uma ferramenta de interação entre o lojista e o cliente.</p>
             </div><!-- descritivo -->
             <div class="mobile col-md-6 text-center">
                 <div class="mobile-wrapper">
@@ -151,7 +152,7 @@
                 <img class="contaagil img-responsive" width="230px" src="images/contaagil.png" alt="">
             </div>
             <div class="col-md-3 text-center aux animated" data-animate="fadeInUp">
-                <img class="sansung img-responsive" width="185px" src="images/sansung.png" alt="">
+                <img class="samsung img-responsive" width="185px" src="images/samsung.png" alt="">
             </div>
             <div class="col-md-3 text-center animated" data-animate="fadeInDown">
                 <img class="itau img-responsive" width="80px" src="images/logo-itau.png" alt="">
@@ -171,18 +172,18 @@
         <div class="row">
             <div class="col-md-4 text-left animated" data-animate="fadeInLeft">
                 <p>gustavo.villasboas@codeback.com.br</p>
-                <p>(15) 7070-7070</p>
-                <p>(15) 7070-7070</p>
+                <p>(15) 99148-0446</p>
+                <p>(15) 30313421</p>
             </div>
             <div class="col-md-4 text-center animated" data-animate="fadeInUp">
                 <p>agatha.magalhaes@codeback.com.br</p>
-                <p>(15) 7070-7070</p>
-                <p>(15) 7070-7070</p>
+                <p>(15) 99131-6233</p>
+                <p>(15) 3017-6699</p>
             </div>
             <div class="col-md-4 text-right animated" data-animate="fadeInRight">
                 <p>vinicius.fernando@codeback.com.br</p>
-                <p>(15) 7070-7070</p>
-                <p>(15) 7070-7070</p>
+                <p>(15) 998618741</p>
+                <p>(15) 3037-5774</p>
             </div>
         </div><!-- dados de contato -->
         <div id="map" class="row">
@@ -207,7 +208,7 @@
                     Papel na equipe
                 </div>
                 <div class="col-sm-12">
-                    <?= lorem(); ?>
+                    Amante de programação. Deixou o emprego para correr atrás de um sonho. Nessa aventura, surgiu a CODEBACK. Desenvolvedor mobile e web, fullstack.
                 </div>
             </div>
             <div class="col-md-4 text-center margin-top-col animated" data-animate="fadeInDown">
@@ -223,7 +224,7 @@
                     Papel na equipe
                 </div>
                 <div class="col-sm-12">
-                    <?= lorem(); ?>
+                Desenvolvedora Web e Mobile. Bastante experiência em PHP, CSS, Bootstrap, JavaScript, HTML e Ionic.
                 </div>
             </div>
             <div class="col-md-4 text-center margin-top-col  animated" data-animate="fadeInRight">
@@ -239,7 +240,7 @@
                     Papel na equipe
                 </div>
                 <div class="col-sm-12">
-                    <?= lorem(); ?>
+                    Desenvolvedor web e mobile. Tem experiência em travalhar com Ionic, JavaScript, PHP e HTML.
                 </div>
             </div>
         </div>
@@ -256,19 +257,19 @@
             <div class="row">
                 <div class="col-md-12 text-center col-list">
                     <ul class="footer-list">
-                        <li><a href="">A Codeback</a></li>
-                        <li><a href="">Cases</a></li>
-                        <li><a href="">Clientes</a></li>
-                        <li><a href="">Contato</a></li>
-                        <li><a href="">Mapa</a></li>
-                        <li><a href="">Equipe</a></li>
+                        <li><a href="#services-panel">A Codeback</a></li>
+                        <li><a href="#cases">Cases</a></li>
+                        <li><a href="#clientes">Clientes</a></li>
+                        <li><a href="#contact">Contato</a></li>
+                        <li><a href="#map">Mapa</a></li>
+                        <li><a href="#equipe">Equipe</a></li>
                     </ul>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-12 text-center col-redes-sociais">
                     <ul class="redes-sociais">
-                        <li><a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                        <li><a href="https://www.facebook.com/codeback/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
                         <li><a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
                         <li><a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
                         <li><a href=""><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
@@ -297,10 +298,10 @@
             <li><a href="#equipe">Equipe</a></li>
             <li><a href="#equipe"><span></span></a></li>
             <div class="redes-sociais">
-                <li><i class="fa fa-facebook" aria-hidden="true"></i></li>
-                <li><i class="fa fa-instagram" aria-hidden="true"></i></li>
-                <li><i class="fa fa-twitter" aria-hidden="true"></i></li>
-                <li><i class="fa fa-youtube-play" aria-hidden="true"></i></li>
+                <li><a href="https://www.facebook.com/codeback/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                <li><a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                <li><a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                <li><a href=""><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
             </div>
         </ul>
     </div><!-- menu lateral -->
