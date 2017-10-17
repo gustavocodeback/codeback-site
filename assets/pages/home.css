@@ -119,6 +119,9 @@
 #first-panel h2 .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
     display: inline-block;
 }
+#services-panel .service p {
+    font-size: 20px;
+}
 #services-panel .mobile-screen-wrapper {
     padding: 10px;
 }
@@ -223,7 +226,8 @@
     }
 }
 #cases .description p {
-    text-shadow: 0px 0px 30px rgba(0, 0, 0, 1);
+    text-shadow: 0px 0px 8px rgba(0, 0, 0, 1);
+    font-size: 20px;
 }
 
 /* -------------------
