@@ -1,7 +1,7 @@
 <?php
 
 // seta o url
-define( 'URL', 'http://localhost/codeback-site/' );
+define( 'URL', 'http://localhost/codeback/codeback-site/' );
 
 // inclui o sistema
 require( 'sys/utils.php' );
