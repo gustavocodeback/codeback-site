@@ -49,7 +49,7 @@
         </div><!-- nome -->
         <div id="slogan" class="row">
             <div class="col-md-12 text-center">
-                <h4>Yes, we code!</h4>
+                <h4><img class="img-responsive" src="images/yes_we_code (1).png" alt=""></h4>
             </div>
         </div><!-- slogan -->
 
