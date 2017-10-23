@@ -64,6 +64,13 @@
     position: relative;
     background: url( https://cdn.homeshave.com.br/skin/frontend/homeshave/default/imgs/background_craft-min.jpg );
     margin-top: 0px;
+    background-size: cover;
+}
+#first-panel .container {
+    padding: 0px;
+}
+#first-panel .container .inline-block {
+    display: inline-block;
 }
 #first-panel h1 {
     font-size: 100px;
@@ -82,8 +89,9 @@
     width: 25px;
     height: 16px;
     padding: 0px;
-    position: relative;
-    margin-top: 7px;
+    position: absolute;
+    left: 0;
+    top: 10px;
 }
 .menu span {
     width: 100%;
@@ -91,6 +99,7 @@
     background: black;
     display: inline-block;
     position: absolute;
+    left: 0;
 }
 .menu .middle {
     top: 7px;

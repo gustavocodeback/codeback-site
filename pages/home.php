@@ -27,18 +27,16 @@
     
     <div id="first-panel" class="container-fluid">
         <div class="navbar">
-            <div class="container">
-                <div class="col-xs-4">
+            <div class="container text-center">
+                <div class="inline-block div-menu">
                     <div class="menu" onclick="toggleMenu()">
                         <span></span>
                         <span class="middle"></span>
                         <span></span>
                     </div> 
                 </div>
-                <div class="col-xs-4 text-center">
+                <div class="inline-block">
                     <img width="40px" src="images/logo.png" alt="">
-                </div>
-                <div class="col-xs-4 text-right">
                 </div>
             </div>
         </div><!-- navbar principal -->
