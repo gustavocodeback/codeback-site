@@ -228,7 +228,7 @@
             <div class="col-md-4 text-center margin-top-col  animated" data-animate="fadeInRight">
                 <div class="col-sm-12">
                     <p>
-                        <img class="team-profile img-circle" src="images/anao.jpg">
+                        <img class="team-profile img-circle" src="images/vinicius.jpg">
                     </p>
                 </div>
                 <div class="col-sm-12">
